@@ -1,5 +1,5 @@
 {
-  "name": "get-random-number",
+  "name": "@karthikeyanp/get-random-number",
   "version": "1.0.0",
   "description": "Get Random Number",
   "main": "src/index.js",
