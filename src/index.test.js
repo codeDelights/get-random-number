@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 
-const getRandom = require('./index');
+import getRandom from './index';
 
 describe('getRandom', () => {
     it('should generate a random number', () => {
