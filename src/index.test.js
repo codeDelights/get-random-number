@@ -4,6 +4,6 @@ const getRandom = require('./index');
 
 describe('getRandom', () => {
     it('should generate a random number', () => {
-        expect(getRandom()).to.be.greaterThan(1).and.to.be.lessThan(10);
+        expect(getRandom(1000,100)).to.be.greaterThan(100).and.to.be.lessThan(1000);
     })
 })
